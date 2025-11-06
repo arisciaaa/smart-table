@@ -1,5 +1,6 @@
 import {rules, createComparison} from "../lib/compare.js";
 
+
 export function initSearching(searchField) {
     // создаём компаратор для поиска по нескольким полям
     const compare = createComparison(
